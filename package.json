@@ -1,0 +1,32 @@
+{
+  "name": "dgia-pulse",
+  "version": "1.0.0",
+  "description": "Application de vente de packs digitaux marketing ritualisés, automatisés et documentés.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "build": "echo 'Build process à définir selon stack'",
+    "test": "echo 'Tests à venir'"
+  },
+  "keywords": [
+    "digital-products",
+    "automation",
+    "ritual",
+    "marketing",
+    "packs",
+    "DGIA",
+    "documentation",
+    "delivery"
+  ],
+  "author": "Issouf Sermé",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "dotenv": "^16.3.1",
+    "stripe": "^12.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
